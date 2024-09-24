@@ -2,98 +2,37 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #4169e1; /* Royal Blue */
+    color: #ffffff; /* White text */
 }
 
 header {
-    background-color: #333;
+    background-color: #4169e1; /* Royal Blue for the header */
     padding: 10px 0;
     text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
 nav ul li a {
-    color: #fff;
+    color: #ffffff; /* White text for navigation links */
     text-decoration: none;
 }
 
-.hero {
-    background: url('hero-image.jpg') no-repeat center center/cover;
-    height: 400px;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero h1 {
-    font-size: 3rem;
-}
-
-.hero p {
-    font-size: 1.5rem;
-}
-
-.btn {
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-.services {
-    padding: 50px;
-    text-align: center;
-}
-
-.program {
-    margin-bottom: 30px;
-}
-
-.about, .contact {
-    padding: 50px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-form input, form textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    background-color: #28a745;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+h1, h2, h3 {
+    color: #ffffff; /* White for headings */
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #4169e1; /* Royal Blue for the footer */
+    color: #ffffff; /* White text for footer */
     text-align: center;
     padding: 20px 0;
     margin-top: 30px;
+}
+
+.btn {
+    background-color: #ffffff; /* White background for buttons */
+    color: #4169e1; /* Royal Blue text for buttons */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
